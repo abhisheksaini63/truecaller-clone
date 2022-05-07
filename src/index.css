@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mycontainer{
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  /* border:1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+span{
+  font-weight: bold;
+  margin-right: 50px;
+}
+.card-body{
+  flex: none;
+  border: 1px solid;
+  width: 500px;
+  height: 330px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0,0.5);
+  background-color: white;
+}
+.input-group{
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0,0.5);
+
+}
+p{
+  color: white;
+  font-size: 2rem;
+}
